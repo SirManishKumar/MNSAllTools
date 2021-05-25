@@ -12,7 +12,9 @@ cd MNSTool
 
 chmod 777 *
 
-bash installer.sh
+bash termux-install.sh
+
+bash install.sh
 
 INSTALLATION [ WINDOWS ]
 

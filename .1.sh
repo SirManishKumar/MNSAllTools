@@ -10,7 +10,7 @@ cyan="\033[36;1m"
 white="\033[39;1m"
 
 printf "\e[1;32m\t+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+\e[0m\n"
-printf "\e[1;37m\t      |M|N|S|-|T|o|o|l|s|   \e[0m\n"
+printf "\e[1;37m\t      |A|l|l|T|o|o|l|s|   \e[0m\n"
 printf "\e[1;32m\t+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+\e[0m\n"
 printf "\n"
 printf "\e[1;40m\tCreated by:\e[0m\e[1;42mSirManishKumar\e[0m\n"
@@ -24,12 +24,11 @@ sleep 1
 trap ctrl_c INT
 ctrl_c() {
 clear
-echo "Author : Manish Kumar" | lolcat
-figlet -f slant "MNS-Tools" | lolcat
+echo "Author : Manish Kumar Chaturvedi" | lolcat
+figlet -f slant "AllTools" | lolcat
 sleep 1
 exit
 }
-
 
 lagi=1
 while [ $lagi -lt 6 ];
@@ -410,7 +409,7 @@ echo -e "${y} SUDAH TERINSTAL.."
 100) git clone https://github.com/UltimateHackers/hue
 
 ;;
-00) echo "Author : Manish Kumar" | lolcat
+00) echo "Author : Manish Kumar Chaturvedi" | lolcat
 echo "Github: https://github.com/SirManishKumar" | lolcat
 exit
 ;;

@@ -30,69 +30,93 @@ sleep 1
 exit
 }
 
-
 lagi=1
 while [ $lagi -lt 6 ];
 do
 echo -e "\e[1;36m"
-echo ' 1. Install Mr.Rv.2           51. Install GreenReaper'
-echo ' 2. Install Stegosploit       52. Install Devploit'
-echo ' 3. Install Blazy             53. Install Ipmux'
-echo ' 4. Install anonymous         54. Install Genscript'
-echo ' 5. Install Bingoo            55. Install Airgeddon'
+echo ' 1. Updates AllTools'
+echo ' 2. Install MNSTermux'
+echo ' 3. Install MNSUbuntu'
+echo ' 4. Install MNSNgrok'
+echo ' 5. Install MNSLock'
+echo ' 6. Install MNSSnake'
+echo ' 7. Install MNSTools'
+echo ' 8. Install TermuxLock'
+echo ' 9. Install TermuxTool'
+echo '10. Install TermuxHack'
 echo "========================================================" | lolcat
 echo "            00. Exit            N. Next" | lolcat
 echo "========================================================" | lolcat
 echo -e "\e[1;32m╭─[ Select number to install ]"
 read -p "╰─# " pil;
 case $pil in
-1) git clone https://github.com/Mr-R225/Mr.Rv2
+1) echo " Contacting To Server Please Wait.............................💯" | lolcat
+   echo " Starting To Download All Pkg Please Wait.                      " | lolcat
+   termux-setup-storage
+   apt update && apt upgrade -y
+   pkg update && pkg upgrade -y
+   pkg install git
+   pkg install python
+   pip3 install requests
+   python3 -m pip install --upgrade pip
+   pkg install python2
+   pip2 install requests
+   pip install --upgrade pip
+   pkg install unzip
+   pkg install nano
+   apt update && apt upgrade -y
+   pkg install figlet
+   pkg install curl
+   pkg install wget
+   pkg install php
+   pkg install ruby
+   pkg install perl
+   pkg install zip
+   pkg install unzip
+   pkg install openssl-tool
+   apt update && apt upgrade -y
+   pkg install cmatrix
+   pkg install fish
+   pkg install openssh
+   pip install lolcat
+   pip install colorama
+   apt –fix-broken install
+   clear
+   apt update && apt upgrade -y
+   clear
+   figlet Update AllTools
+   sleep 10
+   clear
+   echo " Download All Pkg It's finished Thank you for using MNSTools          
+   bash install.sh
+
+2) git clone https://github.com/SirManishKumar/MNSTermux
 
 ;;
-2) git clone https://github.com/csh/stegosploit
+3) git clone https://github.com/SirManishKumar/MNSUbuntu
 
 ;;
-3) git clone https://github.com/s0md3v/Blazy.git
+4) git clone https://github.com/SirManishKumar/MNSNgrok
 
 ;;
-4) git clone https://github.com/SitiMaimunah/anonymous.git
+5) git clone https://github.com/SirManishKumar/MNSLock
 
 ;;
-5) git clone https://github.com/Hood3dRob1n/BinGoo.git
+6) git clone https://github.com/SirManishKumar/MNSSnake
 
 ;;
-6) git clone https://github.com/avramit/CamStream-V3
+7) git clone https://github.com/SirManishKumar/MNSTools
 
 ;;
-7) git clone https://github.com/DaffaTakarai/XEIT_Cyber
+8) git clone https://github.com/SirManishKumar/TermuxLock
 
 ;;
-8) git clone https://github.com/shawrkhanethicalhacker/csrfpocmaker
-
-;;
-9) git clone https://github.com/shawrkhanethicalhacker/PHP-BackConnector
-
-;;
-10) git clone https://github.com/4shadoww/stabilizerbot
-
-;;
-11) git clone https://github.com/Tuhinshubhra/Facebook-Video-Downloader
-
-;;
-12) git clone https://github.com/4shadoww/RemBot
-
-;;
-13) git clone https://github.com/UltimateHackers/Entropy
-
-;;
-14) git clone https://github.com/UltimateHackers/Decodify
-
-;;
-15) git clone https://github.com/UltimateHackers/hue
+9) git clone https://github.com/SirManishKumar/TermuxTool
 
 ;;
 00) echo "Author : Manish Kumar" | lolcat
 echo "Github: https://github.com/SirManishKumar" | lolcat
+clear
 exit
 ;;
 N) clear

@@ -5,6 +5,7 @@ Suitable for pentesters, bug hunting, exploitation, mapping, etc. You can instal
 the number it falls under.
 
 INSTALLATION [ TERMUX APP --ANDROID ]
+
 git clone https://github.com/SirManishKumar/MNSTool
 
 cd MNSTool
@@ -14,6 +15,7 @@ chmod 777 *
 bash installer.sh
 
 INSTALLATION [ WINDOWS ]
+
 git clone https://github.com/SirManishKumar/MNSTool
 
 cd MNSTool
@@ -23,14 +25,16 @@ chmod 777 *
 bash installer.sh
 
 TESTED ON FOLLOWING:
-Kali Linux - 2020.1a (version)
-Parrot OS - Rolling Edition (version)
-Ubuntu - 18.04 (version)
-Arch Linux
-Termux App
-Git bash
+
+Kali Linux - 2020.1a (version),
+Parrot OS - Rolling Edition (version),
+Ubuntu - 18.04 (version),
+Arch Linux,
+Termux App,
+Git bash.
 
 PREREQUISITES:
-Curl
-Wget
-git
+
+Curl,
+Wget,
+git,

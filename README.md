@@ -4,7 +4,7 @@ In this tool you will get a total of 350+ hacking tools for you to install into 
 Suitable for pentesters, bug hunting, exploitation, mapping, etc. You can install these tools by just typing
 the number it falls under.
 
-INSTALLATION [ TERMUX APP --ANDROID ]
+INSTALLATION [ TERMUX, LINUX, WINDOWS ]
 
 git clone https://github.com/SirManishKumar/MNSTool
 
@@ -15,16 +15,6 @@ chmod 777 *
 bash termux-install.sh
 
 bash install.sh
-
-INSTALLATION [ WINDOWS ]
-
-git clone https://github.com/SirManishKumar/MNSTool
-
-cd MNSTool
-
-chmod 777 *
-
-bash installer.sh
 
 TESTED ON FOLLOWING:
 

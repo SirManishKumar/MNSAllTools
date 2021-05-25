@@ -87,7 +87,7 @@ case $pil in
    figlet Update AllTools
    sleep 10
    clear
-   echo " Download All Pkg It's finished Thank you for using MNSTools          
+   echo " Download All Pkg It's finished Thank you for using MNSTools          " | lolcat
    bash install.sh
 
 2) git clone https://github.com/SirManishKumar/MNSTermux

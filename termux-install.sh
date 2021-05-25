@@ -1,5 +1,6 @@
 #!/bin/bash
 #version 1.0
+clear
 pkg install curl
 pkg install wget
 pkg install git
@@ -53,6 +54,7 @@ apt upgrade -y
 cd && cd AllTools
 mv install install.sh
 rm -rf termux-install.sh
+exit
 bash install.sh
 
 ;;
@@ -61,6 +63,7 @@ apt upgrade -y
 cd && cd AllTools
 mv install install.sh
 rm -rf termux-install.sh
+exit
 bash install.sh
 
 ;;
@@ -69,6 +72,7 @@ apt upgrade -y
 cd && cd AllTools
 mv install install.sh
 rm -rf termux-install.sh
+exit
 bash install.sh
 
 ;;

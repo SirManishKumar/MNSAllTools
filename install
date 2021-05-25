@@ -115,7 +115,7 @@ case $pil in
 
 ;;
 00) echo "Author : Manish Kumar" | lolcat
-echo "Github: https://github.com/SirManishKumar" | lolcat
+echo "Github: https://github.com/SirManishKumar/AllTools" | lolcat
 clear
 exit
 ;;

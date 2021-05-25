@@ -85,11 +85,8 @@ case $pil in
    apt update && apt upgrade -y
    clear
    figlet Update AllTools
-   sleep 10
-   clear
-   echo " Download All Pkg It's finished Thank you for using MNSTools          " | lolcat
-   bash install.sh
-
+   
+;;
 2) git clone https://github.com/SirManishKumar/MNSTermux
 
 ;;

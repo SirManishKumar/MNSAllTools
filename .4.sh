@@ -1,14 +1,7 @@
-#!bin/bash
-cls || clear
-trap ctrl_c INT
-ctrl_c() {
-echo "Author : AnonyminHack5" | lolcat
-echo "WhatsApp : +2349033677589" | lolcat
-figlet -f slant "AnonyminHack5" | lolcat
-sleep 1
-exit
-}
-green="\033[32;1m"
+#!/bin/bash
+#version 1.0
+clear
+green="\e[1;32m"
 yellow="\033[33;1m"
 indigo="\033[34;1m"
 red="\033[35;1m"
@@ -17,55 +10,60 @@ cyan="\033[36;1m"
 white="\033[39;1m"
 
 printf "\e[1;32m\t+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+\e[0m\n"
-printf "\e[1;37m\t|T|o|o|l|s|-|I|n|s|t|a|l|l|e|r|\e[0m\n"
+printf "\e[1;37m\t      |A|l|l|T|o|o|l|s|   \e[0m\n"
 printf "\e[1;32m\t+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+\e[0m\n"
 printf "\n"
-printf "\e[1;40m\tCreated by:\e[0m\e[1;42mAnonyminHack5\e[0m\n"
+printf "\e[1;40m\tCreated by:\e[0m\e[1;42mSirManishKumar\e[0m\n"
 printf "\n"
-printf "\e[1;93m==========[\e[0m\e[1;95mAll Tools Installer]\e[0m\e[1;93m============\e[0m\n"
-sleep 1
 
+printf "\e[1;93m==============[\e[0m\e[1;95mAll Tools Installer]\e[0m\e[1;93m===============\e[0m\n"
+sleep 1
+###################################################
+# CTRL + C
+###################################################
+trap ctrl_c INT
+ctrl_c() {
+clear
+echo "Author : Manish Kumar Chaturvedi" | lolcat
+figlet -f slant "AllTools" | lolcat
+sleep 1
+exit
+}
 
 lagi=1
 while [ $lagi -lt 6 ];
 do
 echo -e "\e[1;36m "
 echo "314. Install Recon	 333. Install maskphish"
-echo '315. Install Nexphisher  334. Install Anonphisher'
+echo '315. Install Nexphisher    334. Install Anonphisher'
 echo '316. Install PayBag	 335. Install BillCipher'
-echo '317. Install PhoneSploit 336. Install BruteWeb'
-echo '318. Install SayCheese.  337. Install IP-Attack'
-echo '319. Install Mrphish     338. Install T-load'
-echo '320. Install AdvPhishing 339. Install Email-Bomber'
-echo '321. Install Grabcam     340. Install Termux-theme'
-echo '322. Install Zphisher    341. Install Kalimux'
-echo '323. Install CAM-DUMPER  342. Install H-tool'
+echo '317. Install PhoneSploit   336. Install BruteWeb'
+echo '318. Install SayCheese     337. Install IP-Attack'
+echo '319. Install Mrphish       338. Install T-load'
+echo '320. Install AdvPhishing   339. Install Email-Bomber'
+echo '321. Install Grabcam       340. Install Termux-theme'
+echo '322. Install Zphisher      341. Install Kalimux'
+echo '323. Install CAM-DUMPER    342. Install H-tool'
 echo '324. Install Picture Guard 343. Install Fb-Repot'
-echo '325. Install A-Virus     344. Install bint(fb hack)'
-echo '326. Install Owl         345. Install Admin'
-echo '327. Install FSociety    346. Install BugHunter'
-echo '328. Install Setoolkit   347. Install info'
-echo '329. Install Metasploit  348. Install Ddos-attack'
-echo '330. Install AK47        349. Install T.H.A'
-echo '331. Install PapaViruz   350. Install MyVirus'
-echo '332. Install All tools   351. Install Hack-Gmail'
-echo "===========================================" | lolcat
-echo "  00. Exit            N. Next" | lolcat
-echo "===========================================" | lolcat
+echo '325. Install A-Virus       344. Install bint(fb hack)'
+echo '326. Install Owl           345. Install Admin'
+echo '327. Install FSociety      346. Install BugHunter'
+echo '328. Install Setoolkit     347. Install info'
+echo '329. Install Metasploit    348. Install Ddos-attack'
+echo '330. Install AK47          349. Install T.H.A'
+echo '331. Install PapaViruz     350. Install MyVirus'
+echo '332. Install All tools     351. Install Hack-Gmail'
+echo "================================================" | lolcat
+echo "          00. Exit            N. Next" | lolcat
+echo "================================================" | lolcat
 echo -e "\e[1;32m╭─[ Select Tool to Install ]\e[0m"
-read -p " ╰─# " pil;
+read -p "╰─# " pil;
 
 case $pil in
 00) echo "Author : AnonyminHack5" | lolcat
 echo "Team: TermuxHackz Society" | lolcat
 echo "Github: TermuxHackz" | lolcat
 exit
-;;
-
-N) bash .5.sh
-;;
-
-n) bash .5.sh
 ;;
 
 314) git clone https://github.com/TermuxHackz/recon

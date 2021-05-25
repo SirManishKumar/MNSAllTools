@@ -48,13 +48,28 @@ echo "========================================================" | lolcat
 echo -e "\e[1;32m╭─[ Select number to install ]"
 read -p "╰─# " pil;
 case $pil in
-1) cd && cd MNS-Tools && mv install install.sh && bash install.sh
+1) apt update -y
+apt upgrade -y
+cd && cd AllTools
+mv install install.sh
+rm -rf termux-install.sh
+bash install.sh
 
 ;;
-2) cd && cd MNS-Tools && mv install install.sh && bash install.sh
+2) apt update -y
+apt upgrade -y
+cd && cd AllTools
+mv install install.sh
+rm -rf termux-install.sh
+bash install.sh
 
 ;;
-3) cd && cd MNS-Tools && mv install install.sh && bash install.sh
+3) apt update -y
+apt upgrade -y
+cd && cd AllTools
+mv install install.sh
+rm -rf termux-install.sh
+bash install.sh
 
 ;;
 esac

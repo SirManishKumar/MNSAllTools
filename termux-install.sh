@@ -57,7 +57,7 @@ case $pil in
 1) apt update -y
    apt upgrade -y
    cd
-   cd AllTools
+   cd MNSAllTools
    chmod 777 *
    mv install install.sh
    rm -rf termux-install.sh
@@ -67,7 +67,7 @@ case $pil in
 2) apt update -y
    apt upgrade -y
    cd
-   cd AllTools
+   cd MNSAllTools
    chmod 777 *
    mv install install.sh
    rm -rf termux-install.sh
@@ -77,7 +77,7 @@ case $pil in
 3) apt update -y
    apt upgrade -y
    cd
-   cd AllTools
+   cd MNSAllTools
    chmod 777 *
    mv install install.sh
    rm -rf termux-install.sh

@@ -1,4 +1,4 @@
-# AllTools
+# MNSAllTools
 A collection of 350+ hacking tools you can install into termux for hacking, Pentesting, Mapping and more.
 In this tool you will get a total of 350+ hacking tools for you to install into termux/kali/windows/ubuntu,
 Suitable for pentesters, bug hunting, exploitation, mapping, etc. You can install these tools by just typing
@@ -6,9 +6,9 @@ the number it falls under.
 
 INSTALLATION [ TERMUX, LINUX, WINDOWS ]
 
-git clone https://github.com/SirManishKumar/AllTools
+git clone https://github.com/SirManishKumar/MNSAllTools
 
-cd AllTools
+cd MNSAllTools
 
 chmod 777 *
 

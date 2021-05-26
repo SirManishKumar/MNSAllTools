@@ -39,7 +39,7 @@ exit
 lagi=1
 while [ $lagi -lt 6 ];
 do
-figlet -f slant "MNSAllTools" | lolcat
+
 echo "╭━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━╮" | lolcat
 echo "   Created By:- https://github.com/SirManishKumar/TermuxLock " | lolcat
 echo "     Follow On Twitter:- http://twtter.com/SirManishKumar " | lolcat

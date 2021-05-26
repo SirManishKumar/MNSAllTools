@@ -47,15 +47,16 @@ echo "========================================================" | lolcat
 echo "            Please Choose Your Operating System" | lolcat
 echo "========================================================" | lolcat
 echo -e "\e[1;32m╭─[ Select number to install ]"
-read -p "╰─# " pil;
+read -p "╰─> " pil;
 case $pil in
 1) apt update -y
-apt upgrade -y
-cd && cd AllTools
-mv install install.sh
-rm -rf termux-install.sh
-exit
-bash install.sh
+   apt upgrade -y
+   cd
+   cd AllTools
+   chmod 777 *
+   mv install install.sh
+   rm -rf termux-install.sh
+   exit
 
 ;;
 2) apt update -y

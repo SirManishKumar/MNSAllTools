@@ -53,16 +53,17 @@ echo '329. Install Metasploit    348. Install Ddos-attack'
 echo '330. Install AK47          349. Install T.H.A'
 echo '331. Install PapaViruz     350. Install MyVirus'
 echo '332. Install All tools     351. Install Hack-Gmail'
-echo "================================================" | lolcat
-echo "          00. Exit            N. Next" | lolcat
-echo "================================================" | lolcat
+echo "===================================================" | lolcat
+echo "            00. Exit            N. Next" | lolcat
+echo "===================================================" | lolcat
 echo -e "\e[1;32m╭─[ Select Tool to Install ]\e[0m"
-read -p "╰─# " pil;
+read -p "╰─> " pil;
 
 case $pil in
-00) echo "Author : AnonyminHack5" | lolcat
-echo "Team: TermuxHackz Society" | lolcat
-echo "Github: TermuxHackz" | lolcat
+00) echo "Author : Manish Kumar Chaturvedi" | lolcat
+echo "Github: https://github.com/SirManishKumar/AllTools" | lolcat
+figlet -f slant "AllTools" | lolcat
+sleep 1
 exit
 ;;
 

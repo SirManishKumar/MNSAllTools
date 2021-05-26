@@ -99,7 +99,7 @@ echo "========================================================" | lolcat
 echo "            00. Exit            N. Next" | lolcat
 echo "========================================================" | lolcat
 echo -e "\e[1;32m╭─[ Select number to install ]"
-read -p "╰─> " pil;
+read -p "╰──> " pil;
 case $pil in
 1) git clone https://github.com/Mr-R225/Mr.Rv2
 

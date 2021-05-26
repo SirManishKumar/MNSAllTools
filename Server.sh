@@ -61,7 +61,7 @@ case $pil in
    cd MNSAllTools
    chmod 777 *
    mv install install.sh
-   rm -rf termux-install.sh
+   rm -rf Server.sh
    exit
 
 ;;
@@ -71,7 +71,7 @@ case $pil in
    cd MNSAllTools
    chmod 777 *
    mv install install.sh
-   rm -rf termux-install.sh
+   rm -rf Server.sh
    exit
 
 ;;
@@ -81,7 +81,7 @@ case $pil in
    cd MNSAllTools
    chmod 777 *
    mv install install.sh
-   rm -rf termux-install.sh
+   rm -rf Server.sh
    exit
 
 ;;

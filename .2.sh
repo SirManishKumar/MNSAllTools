@@ -92,7 +92,7 @@ echo '150. Install WebKiller             200. Install Mr.Rv1'
 echo "=============================================================" | lolcat
 echo "                 00. Exit            N. Next" | lolcat
 echo "=============================================================" | lolcat
-echo -e "\e[1;32m╭─[ Select number to install ]\e[0m"
+echo -e "\e[1;32m╭─[ Select number to install ]"
 read -p "╰──> " pil;
 
 case $pil in
@@ -460,9 +460,10 @@ mpsyt
 200) git clone https://github.com/Mr-R225/Mr.Rv1
 
 ;;
-00) echo "Author : AnonyminHack5" | lolcat
-echo "Team: TermuxHackz Society" | lolcat
-echo "Github: TermuxHackz" | lolcat
+00) echo "Author : Manish Kumar Chaturvedi" | lolcat
+echo "Github: https://github.com/SirManishKumar/AllTools" | lolcat
+figlet -f slant "MNSAllTools" | lolcat
+sleep 1
 exit
 
 ;;

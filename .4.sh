@@ -61,13 +61,13 @@ echo '332. Install All tools     351. Install Hack-Gmail'
 echo "===================================================" | lolcat
 echo "            00. Exit            N. Next" | lolcat
 echo "===================================================" | lolcat
-echo -e "\e[1;32m╭─[ Select Tool to Install ]\e[0m"
+echo -e "\e[1;32m╭─[ Select Tool to Install ]"
 read -p "╰──> " pil;
 
 case $pil in
 00) echo "Author : Manish Kumar Chaturvedi" | lolcat
 echo "Github: https://github.com/SirManishKumar/AllTools" | lolcat
-figlet -f slant "AllTools" | lolcat
+figlet -f slant "MNSAllTools" | lolcat
 sleep 1
 exit
 ;;

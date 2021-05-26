@@ -415,8 +415,11 @@ echo -e "${y} SUDAH TERINSTAL.."
 
 ;;
 00) echo "Author : Manish Kumar Chaturvedi" | lolcat
-echo "Github: https://github.com/SirManishKumar" | lolcat
+echo "Github: https://github.com/SirManishKumar/AllTools" | lolcat
+figlet -f slant "MNSAllTools" | lolcat
+sleep 1
 exit
+
 ;;
 N) clear
 bash .2.sh

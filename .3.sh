@@ -105,7 +105,7 @@ read -p "╰──> " no;
 case $no in
 00) echo "Author : Manish Kumar Chaturvedi" | lolcat
 echo "Github: https://github.com/SirManishKumar/AllTools" | lolcat
-figlet -f slant "AllTools" | lolcat
+figlet -f slant "MNSAllTools" | lolcat
 sleep 1
 exit
 ;;

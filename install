@@ -1,6 +1,12 @@
 #!/bin/bash
 #version 1.0
 clear
+pkg install curl
+pkg install wget
+pkg install git
+pip install lolcat
+pkg install figlet
+clear
 green="\e[1;32m"
 yellow="\033[33;1m"
 indigo="\033[34;1m"
@@ -9,14 +15,14 @@ purple="\033[37;1m"
 cyan="\033[36;1m"
 white="\033[39;1m"
 
-printf "\e[1;32m\t+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+\e[0m\n"
-printf "\e[1;37m\t      |A|l|l|T|o|o|l|s|   \e[0m\n"
-printf "\e[1;32m\t+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+\e[0m\n"
+printf "\e[1;32m\t    +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+\e[0m\n"
+printf "\e[1;37m\t               |M|N|S|A|l|l|T|o|o|l|s|   \e[0m\n"
+printf "\e[1;32m\t    +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+\e[0m\n"
 printf "\n"
-printf "\e[1;40m\tCreated by:\e[0m\e[1;42mSirManishKumar\e[0m\n"
+printf "\e[1;40m\t            Created by:\e[0m\e[1;42mSirManishKumar\e[0m\n"
 printf "\n"
 
-printf "\e[1;93m==============[\e[0m\e[1;95mAll Tools Installer]\e[0m\e[1;93m===============\e[0m\n"
+printf "\e[1;93m====================[\e[0m\e[1;95mAll Tools Installer]\e[0m\e[1;93m=====================\e[0m\n"
 sleep 1
 ###################################################
 # CTRL + C
@@ -25,7 +31,7 @@ trap ctrl_c INT
 ctrl_c() {
 clear
 echo "Author : Manish Kumar Chaturvedi" | lolcat
-figlet -f slant "AllTools" | lolcat
+figlet -f slant "MNSAllTools" | lolcat
 sleep 1
 exit
 }
@@ -33,6 +39,11 @@ exit
 lagi=1
 while [ $lagi -lt 6 ];
 do
+figlet -f slant "MNSAllTools" | lolcat
+echo "╭━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━╮" | lolcat
+echo "   Created By:- https://github.com/SirManishKumar/TermuxLock " | lolcat
+echo "     Follow On Twitter:- http://twtter.com/SirManishKumar " | lolcat
+echo "╰━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━╯" | lolcat
 echo -e "\e[1;36m"
 echo ' 1. Updates AllTools'
 echo ' 2. Install MNSTermux'
@@ -44,11 +55,11 @@ echo ' 7. Install MNSTools'
 echo ' 8. Install TermuxLock'
 echo ' 9. Install TermuxTool'
 echo '10. Install TermuxHack'
-echo "========================================================" | lolcat
-echo "            00. Exit            N. Next" | lolcat
-echo "========================================================" | lolcat
+echo "===========================================================" | lolcat
+echo "               00. Exit            N. Next" | lolcat
+echo "===========================================================" | lolcat
 echo -e "\e[1;32m╭─[ Select number to install ]"
-read -p "╰─> " pil;
+read -p "╰──> " pil;
 case $pil in
 1) echo " Contacting To Server Please Wait.............................💯" | lolcat
    echo " Starting To Download All Pkg Please Wait.                      " | lolcat
@@ -85,16 +96,22 @@ case $pil in
    apt update && apt upgrade -y
    clear
    figlet Update
-   figlet AllTools
+   figlet MNSAllTools
    
 ;;
-2) git clone https://github.com/SirManishKumar/MNSTermux
+2) echo " Contacting To Server Please Wait.............................💯" | lolcat
+   echo " Starting To Download All Pkg Please Wait.                      " | lolcat
+   git clone https://github.com/SirManishKumar/MNSTermux
 
 ;;
-3) git clone https://github.com/SirManishKumar/MNSUbuntu
+3) echo " Contacting To Server Please Wait.............................💯" | lolcat
+   echo " Starting To Download All Pkg Please Wait.                      " | lolcat
+   git clone https://github.com/SirManishKumar/MNSUbuntu
 
 ;;
-4) git clone https://github.com/SirManishKumar/MNSNgrok
+4) echo " Contacting To Server Please Wait.............................💯" | lolcat
+   echo " Starting To Download All Pkg Please Wait.                      " | lolcat
+   git clone https://github.com/SirManishKumar/MNSNgrok
    mv MNSNgrok $HOME
    cd
    cd MNSNgrok
@@ -103,7 +120,9 @@ case $pil in
    cd && rm -rf MNSNgrok
 
 ;;
-5) git clone https://github.com/SirManishKumar/MNSLock
+5) echo " Contacting To Server Please Wait.............................💯" | lolcat
+   echo " Starting To Download All Pkg Please Wait.                      " | lolcat
+   git clone https://github.com/SirManishKumar/MNSLock
    mv MNSLock $HOME
    cd
    cd MNSLock
@@ -112,10 +131,14 @@ case $pil in
    cd && rm -rf MNSLock
 
 ;;
-6) git clone https://github.com/SirManishKumar/MNSSnake
+6) echo " Contacting To Server Please Wait.............................💯" | lolcat
+   echo " Starting To Download All Pkg Please Wait.                      " | lolcat
+   git clone https://github.com/SirManishKumar/MNSSnake
 
 ;;
-7) git clone https://github.com/SirManishKumar/MNSTools
+7) echo " Contacting To Server Please Wait.............................💯" | lolcat
+   echo " Starting To Download All Pkg Please Wait.                      " | lolcat
+   git clone https://github.com/SirManishKumar/MNSTools
    mv MNSTools $HOME
    cd
    cd MNSTools
@@ -123,10 +146,14 @@ case $pil in
    python install.py
 
 ;;
-8) git clone https://github.com/SirManishKumar/TermuxLock
+8) echo " Contacting To Server Please Wait.............................💯" | lolcat
+   echo " Starting To Download All Pkg Please Wait.                      " | lolcat
+   git clone https://github.com/SirManishKumar/TermuxLock
 
 ;;
-9) git clone https://github.com/SirManishKumar/TermuxTool
+9) echo " Contacting To Server Please Wait.............................💯" | lolcat
+   echo " Starting To Download All Pkg Please Wait.                      " | lolcat
+   git clone https://github.com/SirManishKumar/TermuxTool
 
 ;;
 00) echo "Author : Manish Kumar Chaturvedi" | lolcat

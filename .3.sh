@@ -106,7 +106,7 @@ echo "========================================================" | lolcat
 echo "            00. Exit            N. Next" | lolcat
 echo "========================================================" | lolcat
 echo -e "\e[1;32m╭─[ Select Tool to Install ]\e[0m"
-read -p "╰─> " no;
+read -p "╰──> " no;
 
 case $no in
 00) echo "Author : Manish Kumar Chaturvedi" | lolcat

@@ -99,7 +99,7 @@ echo "=============================================================" | lolcat
 echo "                 00. Exit            N. Next" | lolcat
 echo "=============================================================" | lolcat
 echo -e "\e[1;32m╭─[ Select number to install ]\e[0m"
-read -p "╰─> " pil;
+read -p "╰──> " pil;
 
 case $pil in
 101) pkg install nmap

@@ -84,7 +84,8 @@ case $pil in
    clear
    apt update && apt upgrade -y
    clear
-   figlet Update AllTools
+   figlet Update
+   figlet AllTools
    
 ;;
 2) git clone https://github.com/SirManishKumar/MNSTermux
@@ -95,7 +96,8 @@ case $pil in
 ;;
 4) git clone https://github.com/SirManishKumar/MNSNgrok
    mv MNSNgrok $HOME
-   cd && cd MNSNgrok
+   cd
+   cd MNSNgrok
    chmod +x setup.sh
    bash setup.sh
    cd && rm -rf MNSNgrok
@@ -103,7 +105,8 @@ case $pil in
 ;;
 5) git clone https://github.com/SirManishKumar/MNSLock
    mv MNSLock $HOME
-   cd && cd MNSLock
+   cd
+   cd MNSLock
    chmod +x install.sh
    bash install.sh
    cd && rm -rf MNSLock
@@ -113,8 +116,9 @@ case $pil in
 
 ;;
 7) git clone https://github.com/SirManishKumar/MNSTools
-   mv MNSTools $HOME ')
-   cd && cd MNSTools
+   mv MNSTools $HOME
+   cd
+   cd MNSTools
    chmod +x *
    python install.py
 

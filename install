@@ -39,16 +39,20 @@ echo "   Created By:- https://github.com/SirManishKumar/TermuxLock " | lolcat
 echo "     Follow On Twitter:- http://twtter.com/SirManishKumar " | lolcat
 echo "╰━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━╯" | lolcat
 echo -e "\e[1;36m"
-echo ' 1. Updates AllTools'
-echo ' 2. Install MNSTermux'
-echo ' 3. Install MNSUbuntu'
-echo ' 4. Install MNSNgrok'
-echo ' 5. Install MNSLock'
-echo ' 6. Install MNSSnake'
-echo ' 7. Install MNSTools'
-echo ' 8. Install TermuxLock'
-echo ' 9. Install TermuxTool'
-echo '10. Install TermuxHack'
+echo ' 1. Updates AllTools           ╭━━━━━━━━━━━━━━━━━╮'
+echo ' 2. Install MNSTermux          |                            |'
+echo ' 3. Install MNSUbuntu          |                            |'
+echo ' 4. Install MNSNgrok           |                            |'
+echo ' 5. Install MNSLock            |                            |'
+echo ' 6. Install MNSSnake           |                            |'
+echo ' 7. Install MNSTools           |                            |'
+echo ' 8. Install TermuxLock         |                            |'
+echo ' 9. Install TermuxTool         |                            |'
+echo '10. Install TermuxHack         ╰━━━━━━━━━━━━━━━━━╯'
+
+print ("\033[1;31m [0] \033[1;32m Exit     \033[1;31m [99] \033[1;32m Update     \033[1;31m [r] \033[1;32m Restart   \033[1;31m [g] \033[1;32m Github ")
+print ("\033[1;31m [y] \033[1;32m Youtube   \033[1;31m [f] \033[1;32m Facebook   \033[1;31m [t] \033[1;32m Twitter   \033[1;31m [w] \033[1;32m WhatsApp ")
+
 echo "===========================================================" | lolcat
 echo "               00. Exit            N. Next" | lolcat
 echo "===========================================================" | lolcat

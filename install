@@ -1,12 +1,6 @@
 #!/bin/bash
 #version 1.0
 clear
-pkg install curl
-pkg install wget
-pkg install git
-pip install lolcat
-pkg install figlet
-clear
 green="\e[1;32m"
 yellow="\033[33;1m"
 indigo="\033[34;1m"

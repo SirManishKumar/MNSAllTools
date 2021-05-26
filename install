@@ -39,7 +39,7 @@ echo "   Created By:- https://github.com/SirManishKumar/TermuxLock " | lolcat
 echo "     Follow On Twitter:- http://twtter.com/SirManishKumar " | lolcat
 echo "╰━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━╯" | lolcat
 echo -e "\e[1;36m"
-echo ' 1. Updates AllTools           ╭━━━━━━━━━━━━━━━━━╮'
+echo ' 1. Updates AllTools           ╭━━━━━━━━━━━━━━━━━━━━━━━━━━━━╮'
 echo ' 2. Install MNSTermux          |         u. Update          |'
 echo ' 3. Install MNSUbuntu          |         r. Restart         |'
 echo ' 4. Install MNSNgrok           |         g. Github          |'
@@ -48,7 +48,7 @@ echo ' 6. Install MNSSnake           |         f. Facebook        |'
 echo ' 7. Install MNSTools           |         t. Twitter         |'
 echo ' 8. Install TermuxLock         |         w. WhatsApp        |'
 echo ' 9. Install TermuxTool         |  github.com/SirManishKumar |'
-echo '10. Install TermuxHack         ╰━━━━━━━━━━━━━━━━━╯'
+echo '10. Install TermuxHack         ╰━━━━━━━━━━━━━━━━━━━━━━━━━━━━╯'
 
 echo "===========================================================" | lolcat
 echo "               00. Exit            N. Next" | lolcat

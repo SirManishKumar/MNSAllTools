@@ -40,18 +40,15 @@ echo "     Follow On Twitter:- http://twtter.com/SirManishKumar " | lolcat
 echo "╰━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━╯" | lolcat
 echo -e "\e[1;36m"
 echo ' 1. Updates AllTools           ╭━━━━━━━━━━━━━━━━━╮'
-echo ' 2. Install MNSTermux          |                            |'
-echo ' 3. Install MNSUbuntu          |                            |'
-echo ' 4. Install MNSNgrok           |                            |'
-echo ' 5. Install MNSLock            |                            |'
-echo ' 6. Install MNSSnake           |                            |'
-echo ' 7. Install MNSTools           |                            |'
-echo ' 8. Install TermuxLock         |                            |'
-echo ' 9. Install TermuxTool         |                            |'
+echo ' 2. Install MNSTermux          |         u. Update          |'
+echo ' 3. Install MNSUbuntu          |         r. Restart         |'
+echo ' 4. Install MNSNgrok           |         g. Github          |'
+echo ' 5. Install MNSLock            |         y. Youtube         |'
+echo ' 6. Install MNSSnake           |         f. Facebook        |'
+echo ' 7. Install MNSTools           |         t. Twitter         |'
+echo ' 8. Install TermuxLock         |         w. WhatsApp        |'
+echo ' 9. Install TermuxTool         |  github.com/SirManishKumar |'
 echo '10. Install TermuxHack         ╰━━━━━━━━━━━━━━━━━╯'
-
-print ("\033[1;31m [0] \033[1;32m Exit     \033[1;31m [99] \033[1;32m Update     \033[1;31m [r] \033[1;32m Restart   \033[1;31m [g] \033[1;32m Github ")
-print ("\033[1;31m [y] \033[1;32m Youtube   \033[1;31m [f] \033[1;32m Facebook   \033[1;31m [t] \033[1;32m Twitter   \033[1;31m [w] \033[1;32m WhatsApp ")
 
 echo "===========================================================" | lolcat
 echo "               00. Exit            N. Next" | lolcat
@@ -59,6 +56,44 @@ echo "===========================================================" | lolcat
 echo -e "\e[1;32m╭─[ Select number to install ]"
 read -p "╰──> " pil;
 case $pil in
+u) echo " Contacting To Server Please Wait.............................💯" | lolcat
+   echo " Starting To Download MNSTools Please Wait.                     " | lolcat
+   apt update && apt upgrade
+   pkg install python -y
+   clear
+   echo " It's finished Thank you for using MNSTools                     " | lolcat
+
+;;
+w) echo " Contacting To Server Please Wait.............................💯" | lolcat
+   echo " Starting To Connecting WhatsApp Please Wait.                   " | lolcat
+   xdg-open https://wa.me/+919554988808?text=*From%20MNSTools-*%20I%20Have%20To%20Ask%20For%20
+   echo " It's finished Thank you for using MNSTools                     " | lolcat
+
+;;
+f) echo " Contacting To Server Please Wait.............................💯" | lolcat
+   echo " Starting To Open Facebook Please Wait.                         " | lolcat
+   xdg-open https://facebook.com/sirmanishkumar
+   echo " It's finished Thank you for using MNSTools                     " | lolcat
+
+;;
+y) echo " Contacting To Server Please Wait.............................💯" | lolcat
+   echo " Starting To Open Youtube Please Wait.                          " | lolcat
+   xdg-open https://youtube.com/mnspandit
+   echo " It's finished Thank you for using MNSTools                     " | lolcat
+
+;;
+t) echo " Contacting To Server Please Wait.............................💯" | lolcat
+   echo " Starting To Open Twitter Please Wait.                          " | lolcat
+   xdg-open https://twitter.com/sirmanishkumar
+   echo " It's finished Thank you for using MNSTools                     " | lolcat
+
+;;
+g) echo " Contacting To Server Please Wait.............................💯" | lolcat
+   echo " Starting To Open Github Please Wait.                           " | lolcat
+   xdg-open https://github.com/SirManishKumar
+   echo " It's finished Thank you for using MNSTools                     " | lolcat
+
+;;
 1) echo " Contacting To Server Please Wait.............................💯" | lolcat
    echo " Starting To Download All Pkg Please Wait.                      " | lolcat
    termux-setup-storage

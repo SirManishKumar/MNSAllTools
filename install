@@ -94,15 +94,29 @@ case $pil in
 
 ;;
 4) git clone https://github.com/SirManishKumar/MNSNgrok
+   mv MNSNgrok $HOME
+   cd && cd MNSNgrok
+   chmod +x setup.sh
+   bash setup.sh
+   cd && rm -rf MNSNgrok
 
 ;;
 5) git clone https://github.com/SirManishKumar/MNSLock
+   mv MNSLock $HOME
+   cd && cd MNSLock
+   chmod +x install.sh
+   bash install.sh
+   cd && rm -rf MNSLock
 
 ;;
 6) git clone https://github.com/SirManishKumar/MNSSnake
 
 ;;
 7) git clone https://github.com/SirManishKumar/MNSTools
+   mv MNSTools $HOME ')
+   cd && cd MNSTools
+   chmod +x *
+   python install.py
 
 ;;
 8) git clone https://github.com/SirManishKumar/TermuxLock

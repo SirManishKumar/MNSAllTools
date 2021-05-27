@@ -12,7 +12,7 @@ cd MNSAllTools
 
 chmod 777 *
 
-bash termux-install.sh
+bash installer.sh
 
 bash install.sh
 
@@ -26,7 +26,7 @@ Termux App,
 Git bash.
 
 PREREQUISITES:
-
+Python,
 Curl,
 Wget,
 git,

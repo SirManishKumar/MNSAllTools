@@ -34,10 +34,10 @@ lagi=1
 while [ $lagi -lt 6 ];
 do
 figlet -f slant "MNSAllTools" | lolcat
-echo "╭━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━╮" | lolcat
+echo " ╭━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━╮" | lolcat
 echo "   Created By:- https://github.com/SirManishKumar/MNSAllTools " | lolcat
 echo "      Follow On Twitter:- http://twtter.com/SirManishKumar " | lolcat
-echo "╰━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━╯" | lolcat
+echo " ╰━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━╯" | lolcat
 echo -e "\e[1;36m"
 echo ' 1. Updates AllTools           ╭━━━━━━━━━━━━━━━━━━━━━━━━━━━━╮'
 echo ' 2. Install MNSTermux          |         u. Update          |'
@@ -50,9 +50,9 @@ echo ' 8. Install TermuxLock         |         w. WhatsApp        |'
 echo ' 9. Install TermuxTool         |  github.com/SirManishKumar |'
 echo '10. Install TermuxHack         ╰━━━━━━━━━━━━━━━━━━━━━━━━━━━━╯'
 
-echo "===========================================================" | lolcat
+echo "=============================================================" | lolcat
 echo "               0. Exit            N. Next" | lolcat
-echo "===========================================================" | lolcat
+echo "=============================================================" | lolcat
 echo -e "\e[1;32m╭─[ Select number to install ]"
 read -p "╰──> " pil;
 case $pil in
@@ -193,6 +193,7 @@ g) echo " Contacting To Server Please Wait.............................💯" | l
 echo "Github: https://github.com/SirManishKumar/MNSAllTools" | lolcat
 figlet -f slant "MNSAllTools" | lolcat
 sleep 1
+clear
 exit
 ;;
 N) clear

@@ -35,8 +35,8 @@ while [ $lagi -lt 6 ];
 do
 figlet -f slant "MNSAllTools" | lolcat
 echo "╭━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━╮" | lolcat
-echo "   Created By:- https://github.com/SirManishKumar/TermuxLock " | lolcat
-echo "     Follow On Twitter:- http://twtter.com/SirManishKumar " | lolcat
+echo "   Created By:- https://github.com/SirManishKumar/MNSAllTools " | lolcat
+echo "      Follow On Twitter:- http://twtter.com/SirManishKumar " | lolcat
 echo "╰━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━╯" | lolcat
 echo -e "\e[1;36m"
 echo '101. Install Nmap                  151. Install Bitcoin-Hacking-Tools'
@@ -461,7 +461,7 @@ mpsyt
 
 ;;
 00) echo "Author : Manish Kumar Chaturvedi" | lolcat
-echo "Github: https://github.com/SirManishKumar/AllTools" | lolcat
+echo "Github: https://github.com/SirManishKumar/MNSAllTools" | lolcat
 figlet -f slant "MNSAllTools" | lolcat
 sleep 1
 exit

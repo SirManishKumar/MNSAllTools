@@ -60,38 +60,43 @@ u) echo " Contacting To Server Please Wait.............................💯" | l
    echo " Starting To Download MNSTools Please Wait.                     " | lolcat
    apt update && apt upgrade
    pkg install python -y
+   echo " It's finished Thank you for using MNSAllTools                  " | lolcat
    clear
-   echo " It's finished Thank you for using MNSTools                     " | lolcat
 
 ;;
 w) echo " Contacting To Server Please Wait.............................💯" | lolcat
    echo " Starting To Connecting WhatsApp Please Wait.                   " | lolcat
    xdg-open https://wa.me/+919554988808?text=*From%20MNSAllTools-*%20I%20Have%20To%20Ask%20For%20
    echo " It's finished Thank you for using MNSTools                     " | lolcat
+   clear
 
 ;;
 f) echo " Contacting To Server Please Wait.............................💯" | lolcat
    echo " Starting To Open Facebook Please Wait.                         " | lolcat
    xdg-open https://facebook.com/sirmanishkumar
-   echo " It's finished Thank you for using MNSTools                     " | lolcat
+   echo " It's finished Thank you for using MNSAllTools                  " | lolcat
+   clear
 
 ;;
 y) echo " Contacting To Server Please Wait.............................💯" | lolcat
    echo " Starting To Open Youtube Please Wait.                          " | lolcat
    xdg-open https://youtube.com/mnspandit
-   echo " It's finished Thank you for using MNSTools                     " | lolcat
+   echo " It's finished Thank you for using MNSAllTools                  " | lolcat
+   clear
 
 ;;
 t) echo " Contacting To Server Please Wait.............................💯" | lolcat
    echo " Starting To Open Twitter Please Wait.                          " | lolcat
    xdg-open https://twitter.com/sirmanishkumar
-   echo " It's finished Thank you for using MNSTools                     " | lolcat
+   echo " It's finished Thank you for using MNSAllTools                  " | lolcat
+   clear
 
 ;;
 g) echo " Contacting To Server Please Wait.............................💯" | lolcat
    echo " Starting To Open Github Please Wait.                           " | lolcat
    xdg-open https://github.com/SirManishKumar
-   echo " It's finished Thank you for using MNSTools                     " | lolcat
+   echo " It's finished Thank you for using MNSAllTools                  " | lolcat
+   clear
 
 ;;
 1) echo " Contacting To Server Please Wait.............................💯" | lolcat
@@ -130,16 +135,19 @@ g) echo " Contacting To Server Please Wait.............................💯" | l
    clear
    figlet Update
    figlet MNSAllTools
-   
+   clear
+
 ;;
 2) echo " Contacting To Server Please Wait.............................💯" | lolcat
    echo " Starting To Download All Pkg Please Wait.                      " | lolcat
    git clone https://github.com/SirManishKumar/MNSTermux
+   clear
 
 ;;
 3) echo " Contacting To Server Please Wait.............................💯" | lolcat
    echo " Starting To Download All Pkg Please Wait.                      " | lolcat
    git clone https://github.com/SirManishKumar/MNSUbuntu
+   clear
 
 ;;
 4) echo " Contacting To Server Please Wait.............................💯" | lolcat
@@ -151,6 +159,7 @@ g) echo " Contacting To Server Please Wait.............................💯" | l
    chmod +x setup.sh
    bash setup.sh
    cd && rm -rf MNSNgrok
+   clear
 
 ;;
 5) echo " Contacting To Server Please Wait.............................💯" | lolcat
@@ -162,11 +171,13 @@ g) echo " Contacting To Server Please Wait.............................💯" | l
    chmod +x install.sh
    bash install.sh
    cd && rm -rf MNSLock
+   clear
 
 ;;
 6) echo " Contacting To Server Please Wait.............................💯" | lolcat
    echo " Starting To Download All Pkg Please Wait.                      " | lolcat
    git clone https://github.com/SirManishKumar/MNSSnake
+   clear
 
 ;;
 7) echo " Contacting To Server Please Wait.............................💯" | lolcat
@@ -177,16 +188,19 @@ g) echo " Contacting To Server Please Wait.............................💯" | l
    cd MNSTools
    chmod +x *
    python install.py
+   clear
 
 ;;
 8) echo " Contacting To Server Please Wait.............................💯" | lolcat
    echo " Starting To Download All Pkg Please Wait.                      " | lolcat
    git clone https://github.com/SirManishKumar/TermuxLock
+   clear
 
 ;;
 9) echo " Contacting To Server Please Wait.............................💯" | lolcat
    echo " Starting To Download All Pkg Please Wait.                      " | lolcat
    git clone https://github.com/SirManishKumar/TermuxTool
+   clear
 
 ;;
 0) echo "Author : Manish Kumar Chaturvedi" | lolcat

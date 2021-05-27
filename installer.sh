@@ -41,17 +41,18 @@ lagi=1
 while [ $lagi -lt 6 ];
 do
 figlet -f slant "MNSAllTools" | lolcat
-echo "╭━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━╮" | lolcat
+echo " ╭━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━╮" | lolcat
 echo "   Created By:- https://github.com/SirManishKumar/MNSAllTools " | lolcat
 echo "      Follow On Twitter:- http://twtter.com/SirManishKumar " | lolcat
-echo "╰━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━╯" | lolcat
+echo " ╰━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━╯" | lolcat
 echo -e "\e[1;36m"
 echo ' 1. Install For Termux'
 echo ' 2. Install For Linux'
-echo ' 3. Install For Window'
-echo "=============================================================" | lolcat
-echo "             Please Choose Your Operating System" | lolcat
-echo "=============================================================" | lolcat
+echo ' 3. Install For Ubuntu'
+echo ' 4. Install For Window'
+echo "===============================================================" | lolcat
+echo "               Please Choose Your Operating System" | lolcat
+echo "===============================================================" | lolcat
 echo -e "\e[1;32m╭─[ Select number to install ]"
 read -p "╰──> " pil;
 case $pil in
@@ -76,6 +77,16 @@ case $pil in
 
 ;;
 3) apt update -y
+   apt upgrade -y
+   cd
+   cd MNSAllTools
+   chmod 777 *
+   mv install install.sh
+   rm -rf installer.sh
+   exit
+
+;;
+4) apt update -y
    apt upgrade -y
    cd
    cd MNSAllTools

@@ -34,10 +34,10 @@ lagi=1
 while [ $lagi -lt 6 ];
 do
 figlet -f slant "MNSAllTools" | lolcat
-echo "╭━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━╮" | lolcat
+echo " ╭━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━╮" | lolcat
 echo "   Created By:- https://github.com/SirManishKumar/MNSAllTools " | lolcat
 echo "      Follow On Twitter:- http://twtter.com/SirManishKumar " | lolcat
-echo "╰━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━╯" | lolcat
+echo " ╰━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━╯" | lolcat
 echo -e "\e[1;36m"
 echo '101. Install Nmap                  151. Install Bitcoin-Hacking-Tools'
 echo '102. Install Admin-finder          152. Install Firefox-Plugin-Popup-Logout'
@@ -89,9 +89,9 @@ echo '147. Install Findip                197. Install WifiPhisher'
 echo '148. Install V3nom-Scanner         198. Install WebSploit'
 echo '149. Install Bom Sms 3             199. Install Wifi-Hacker'
 echo '150. Install WebKiller             200. Install Mr.Rv1'
-echo "=============================================================" | lolcat
+echo "===============================================================" | lolcat
 echo "                 0. Exit            N. Next" | lolcat
-echo "=============================================================" | lolcat
+echo "===============================================================" | lolcat
 echo -e "\e[1;32m╭─[ Select number to install ]"
 read -p "╰──> " pil;
 
@@ -464,6 +464,7 @@ mpsyt
 echo "Github: https://github.com/SirManishKumar/MNSAllTools" | lolcat
 figlet -f slant "MNSAllTools" | lolcat
 sleep 1
+clear
 exit
 
 ;;

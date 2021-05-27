@@ -97,13 +97,13 @@ echo '255. Install Password-Cracker   312. Install Spam WhatsApp'
 echo '256. Install Flux               313. Install DarkCurut08'
 
 echo "========================================================" | lolcat
-echo "            00. Exit            N. Next" | lolcat
+echo "            0. Exit            N. Next" | lolcat
 echo "========================================================" | lolcat
 echo -e "\e[1;32m╭─[ Select Tool to Install ]"
 read -p "╰──> " no;
 
 case $no in
-00) echo "Author : Manish Kumar Chaturvedi" | lolcat
+0) echo "Author : Manish Kumar Chaturvedi" | lolcat
 echo "Github: https://github.com/SirManishKumar/MNSAllTools" | lolcat
 figlet -f slant "MNSAllTools" | lolcat
 sleep 1

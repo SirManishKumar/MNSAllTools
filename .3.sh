@@ -35,8 +35,8 @@ while [ $lagi -lt 6 ];
 do
 figlet -f slant "MNSAllTools" | lolcat
 echo "╭━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━╮" | lolcat
-echo "   Created By:- https://github.com/SirManishKumar/TermuxLock " | lolcat
-echo "     Follow On Twitter:- http://twtter.com/SirManishKumar " | lolcat
+echo "   Created By:- https://github.com/SirManishKumar/MNSAllTools " | lolcat
+echo "      Follow On Twitter:- http://twtter.com/SirManishKumar " | lolcat
 echo "╰━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━╯" | lolcat
 echo -e "\e[1;36m "
 echo "201. Install Server_Domains     257. Install WatWeb"
@@ -87,7 +87,7 @@ echo '245. Install AutoReaction       302. Install PooleBotNet'
 echo '246. Install MultiSpam          303. Install Python-BotNet'
 echo '247. Install WAScan             304. Install FB-Phishing'
 echo '248. Install 3ERZV3nL           305. Install King-Phisher'
-echo '249. Install ErrorCyberTool 306. Install Extra-Phishing-Pages'
+echo '249. Install ErrorCyberTool  306. Install Extra-Phishing-Pages'
 echo '250. Install Termux-Lazysqlmap  307. Install Artemis'
 echo '251. Install Termux-A           308. Install ss7MAPer'
 echo '252. Install Admin_Panel_Finder 309. Install ss5'

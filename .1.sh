@@ -90,7 +90,7 @@ echo '48. Install Commix            98. Install Entropy'
 echo '49. Install Wpscan            99. Install Decodify'
 echo '50. Install wpbf             100. Install Hue'
 echo "========================================================" | lolcat
-echo "            00. Exit            N. Next" | lolcat
+echo "            0. Exit            N. Next" | lolcat
 echo "========================================================" | lolcat
 echo -e "\e[1;32m╭─[ Select number to install ]"
 read -p "╰──> " pil;
@@ -414,7 +414,7 @@ echo -e "${y} SUDAH TERINSTAL.."
 100) git clone https://github.com/UltimateHackers/hue
 
 ;;
-00) echo "Author : Manish Kumar Chaturvedi" | lolcat
+0) echo "Author : Manish Kumar Chaturvedi" | lolcat
 echo "Github: https://github.com/SirManishKumar/MNSAllTools" | lolcat
 figlet -f slant "MNSAllTools" | lolcat
 sleep 1

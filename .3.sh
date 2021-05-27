@@ -34,10 +34,10 @@ lagi=1
 while [ $lagi -lt 6 ];
 do
 figlet -f slant "MNSAllTools" | lolcat
-echo "╭━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━╮" | lolcat
+echo " ╭━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━╮" | lolcat
 echo "   Created By:- https://github.com/SirManishKumar/MNSAllTools " | lolcat
 echo "      Follow On Twitter:- http://twtter.com/SirManishKumar " | lolcat
-echo "╰━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━╯" | lolcat
+echo " ╰━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━╯" | lolcat
 echo -e "\e[1;36m "
 echo "201. Install Server_Domains     257. Install WatWeb"
 echo '202. Install Tool-Kit           258. Install Tweetbot-Max'
@@ -96,9 +96,9 @@ echo '254. Install Jwt-Cracker        311. Install Cc-Cheker'
 echo '255. Install Password-Cracker   312. Install Spam WhatsApp'
 echo '256. Install Flux               313. Install DarkCurut08'
 
-echo "========================================================" | lolcat
+echo "==========================================================" | lolcat
 echo "            0. Exit            N. Next" | lolcat
-echo "========================================================" | lolcat
+echo "==========================================================" | lolcat
 echo -e "\e[1;32m╭─[ Select Tool to Install ]"
 read -p "╰──> " no;
 
@@ -107,6 +107,7 @@ case $no in
 echo "Github: https://github.com/SirManishKumar/MNSAllTools" | lolcat
 figlet -f slant "MNSAllTools" | lolcat
 sleep 1
+clear
 exit
 ;;
 

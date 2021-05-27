@@ -42,8 +42,8 @@ while [ $lagi -lt 6 ];
 do
 figlet -f slant "MNSAllTools" | lolcat
 echo "╭━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━╮" | lolcat
-echo "   Created By:- https://github.com/SirManishKumar/TermuxLock " | lolcat
-echo "     Follow On Twitter:- http://twtter.com/SirManishKumar " | lolcat
+echo "   Created By:- https://github.com/SirManishKumar/MNSAllTools " | lolcat
+echo "      Follow On Twitter:- http://twtter.com/SirManishKumar " | lolcat
 echo "╰━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━╯" | lolcat
 echo -e "\e[1;36m"
 echo ' 1. Install For Termux'
@@ -61,7 +61,7 @@ case $pil in
    cd MNSAllTools
    chmod 777 *
    mv install install.sh
-   rm -rf Server.sh
+   rm -rf installer.sh
    exit
 
 ;;
@@ -71,7 +71,7 @@ case $pil in
    cd MNSAllTools
    chmod 777 *
    mv install install.sh
-   rm -rf Server.sh
+   rm -rf installer.sh
    exit
 
 ;;
@@ -81,7 +81,7 @@ case $pil in
    cd MNSAllTools
    chmod 777 *
    mv install install.sh
-   rm -rf Server.sh
+   rm -rf installer.sh
    exit
 
 ;;

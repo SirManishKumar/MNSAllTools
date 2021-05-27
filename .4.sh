@@ -59,13 +59,13 @@ echo '330. Install AK47          349. Install T.H.A'
 echo '331. Install PapaViruz     350. Install MyVirus'
 echo '332. Install All tools     351. Install Hack-Gmail'
 echo "===================================================" | lolcat
-echo "            00. Exit            N. Next" | lolcat
+echo "            0. Exit            N. Next" | lolcat
 echo "===================================================" | lolcat
 echo -e "\e[1;32m╭─[ Select Tool to Install ]"
 read -p "╰──> " pil;
 
 case $pil in
-00) echo "Author : Manish Kumar Chaturvedi" | lolcat
+0) echo "Author : Manish Kumar Chaturvedi" | lolcat
 echo "Github: https://github.com/SirManishKumar/MNSAllTools" | lolcat
 figlet -f slant "MNSAllTools" | lolcat
 sleep 1

@@ -61,9 +61,9 @@ echo '219. Install Instabot.py        275. Install imgui'
 echo '220. Install WP-Hunter          276. Install RxTool'
 echo '221. Install meTAInstall        277. Install Windows-Hacks'
 echo '222. Install Remote-Shell       278. Install Elixir-Tips'
-echo '223. Install WPSeku             279. Install Chrome-Password-Hacking'
+echo '223. Install WPSeku          279. Install Chrome-Password-Hacking'
 echo '224. Install BForce             280. Install BioInformatics-Hacks'
-echo '225. Install SMBrute            281. Install RaspberryPi-Packet-Sniffer'
+echo '225. Install SMBrute       281. Install RaspberryPi-Packet-Sniffer'
 echo '226. Install Cok-Rat            282. Install Code-Breaker'
 echo '227. Install Killr              283. Install Andsploit'
 echo '228. Install 0WASP-Nettacker    284. Install Multilang-Fork-Bombs'
@@ -74,7 +74,7 @@ echo '232. Install Joomscan           288. Install BW_Hacks'
 echo '233. Install Brute-Force-Gmail  289. Install CoD_Hacks'
 echo '234. Install CMSmap             290. Install CIA-Hacking-Tools'
 echo '235. Install TheFatRat          291. Install Hack-Tools'
-echo '236. Install Lhst               292. Install Hacking-Tools-Reposity'
+echo '236. Install Lhst           292. Install Hacking-Tools-Reposity'
 echo '237. Install Ko-Dork            293. Install Hacking-Tools'
 echo '238. Install Breacher           294. Install fbht'
 echo '239. Install PhishingGame       295. Install DebianTools'
@@ -87,7 +87,7 @@ echo '245. Install AutoReaction       302. Install PooleBotNet'
 echo '246. Install MultiSpam          303. Install Python-BotNet'
 echo '247. Install WAScan             304. Install FB-Phishing'
 echo '248. Install 3ERZV3nL           305. Install King-Phisher'
-echo '249. Install ErrorCyberTool     306. Install Extra-Phishing-Pages'
+echo '249. Install ErrorCyberTool 306. Install Extra-Phishing-Pages'
 echo '250. Install Termux-Lazysqlmap  307. Install Artemis'
 echo '251. Install Termux-A           308. Install ss7MAPer'
 echo '252. Install Admin_Panel_Finder 309. Install ss5'
@@ -99,7 +99,7 @@ echo '256. Install Flux               313. Install DarkCurut08'
 echo "========================================================" | lolcat
 echo "            00. Exit            N. Next" | lolcat
 echo "========================================================" | lolcat
-echo -e "\e[1;32m╭─[ Select Tool to Install ]\e[0m"
+echo -e "\e[1;32m╭─[ Select Tool to Install ]"
 read -p "╰──> " no;
 
 case $no in

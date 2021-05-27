@@ -34,10 +34,10 @@ lagi=1
 while [ $lagi -lt 6 ];
 do
 figlet -f slant "MNSAllTools" | lolcat
-echo "╭━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━╮" | lolcat
+echo " ╭━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━╮" | lolcat
 echo "   Created By:- https://github.com/SirManishKumar/MNSAllTools " | lolcat
 echo "      Follow On Twitter:- http://twtter.com/SirManishKumar " | lolcat
-echo "╰━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━╯" | lolcat
+echo " ╰━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━╯" | lolcat
 echo -e "\e[1;36m "
 echo "314. Install Recon	 333. Install maskphish"
 echo '315. Install Nexphisher    334. Install Anonphisher'
@@ -58,9 +58,9 @@ echo '329. Install Metasploit    348. Install Ddos-attack'
 echo '330. Install AK47          349. Install T.H.A'
 echo '331. Install PapaViruz     350. Install MyVirus'
 echo '332. Install All tools     351. Install Hack-Gmail'
-echo "===================================================" | lolcat
+echo "=====================================================" | lolcat
 echo "            0. Exit            N. Next" | lolcat
-echo "===================================================" | lolcat
+echo "=====================================================" | lolcat
 echo -e "\e[1;32m╭─[ Select Tool to Install ]"
 read -p "╰──> " pil;
 
@@ -69,6 +69,7 @@ case $pil in
 echo "Github: https://github.com/SirManishKumar/MNSAllTools" | lolcat
 figlet -f slant "MNSAllTools" | lolcat
 sleep 1
+clear
 exit
 ;;
 

@@ -90,7 +90,7 @@ echo '148. Install V3nom-Scanner         198. Install WebSploit'
 echo '149. Install Bom Sms 3             199. Install Wifi-Hacker'
 echo '150. Install WebKiller             200. Install Mr.Rv1'
 echo "=============================================================" | lolcat
-echo "                 00. Exit            N. Next" | lolcat
+echo "                 0. Exit            N. Next" | lolcat
 echo "=============================================================" | lolcat
 echo -e "\e[1;32m╭─[ Select number to install ]"
 read -p "╰──> " pil;
@@ -460,7 +460,7 @@ mpsyt
 200) git clone https://github.com/Mr-R225/Mr.Rv1
 
 ;;
-00) echo "Author : Manish Kumar Chaturvedi" | lolcat
+0) echo "Author : Manish Kumar Chaturvedi" | lolcat
 echo "Github: https://github.com/SirManishKumar/MNSAllTools" | lolcat
 figlet -f slant "MNSAllTools" | lolcat
 sleep 1

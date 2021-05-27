@@ -35,8 +35,8 @@ while [ $lagi -lt 6 ];
 do
 figlet -f slant "MNSAllTools" | lolcat
 echo "╭━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━╮" | lolcat
-echo "   Created By:- https://github.com/SirManishKumar/TermuxLock " | lolcat
-echo "     Follow On Twitter:- http://twtter.com/SirManishKumar " | lolcat
+echo "   Created By:- https://github.com/SirManishKumar/MNSAllTools " | lolcat
+echo "      Follow On Twitter:- http://twtter.com/SirManishKumar " | lolcat
 echo "╰━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━╯" | lolcat
 echo -e "\e[1;36m"
 echo ' 1. Updates AllTools           ╭━━━━━━━━━━━━━━━━━━━━━━━━━━━━╮'
@@ -66,7 +66,7 @@ u) echo " Contacting To Server Please Wait.............................💯" | l
 ;;
 w) echo " Contacting To Server Please Wait.............................💯" | lolcat
    echo " Starting To Connecting WhatsApp Please Wait.                   " | lolcat
-   xdg-open https://wa.me/+919554988808?text=*From%20MNSTools-*%20I%20Have%20To%20Ask%20For%20
+   xdg-open https://wa.me/+919554988808?text=*From%20MNSAllTools-*%20I%20Have%20To%20Ask%20For%20
    echo " It's finished Thank you for using MNSTools                     " | lolcat
 
 ;;
@@ -190,7 +190,7 @@ g) echo " Contacting To Server Please Wait.............................💯" | l
 
 ;;
 00) echo "Author : Manish Kumar Chaturvedi" | lolcat
-echo "Github: https://github.com/SirManishKumar/AllTools" | lolcat
+echo "Github: https://github.com/SirManishKumar/MNSAllTools" | lolcat
 figlet -f slant "MNSAllTools" | lolcat
 sleep 1
 exit

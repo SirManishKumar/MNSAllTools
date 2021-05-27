@@ -34,10 +34,10 @@ lagi=1
 while [ $lagi -lt 6 ];
 do
 figlet -f slant "MNSAllTools" | lolcat
-echo "╭━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━╮" | lolcat
+echo " ╭━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━╮" | lolcat
 echo "   Created By:- https://github.com/SirManishKumar/MNSAllTools " | lolcat
 echo "      Follow On Twitter:- http://twtter.com/SirManishKumar " | lolcat
-echo "╰━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━╯" | lolcat
+echo " ╰━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━╯" | lolcat
 echo -e "\e[1;36m"
 echo ' 1. Install Mr.Rv.2           51. Install GreenReaper'
 echo ' 2. Install Stegosploit       52. Install Devploit'
@@ -89,9 +89,9 @@ echo '47. Install ATSCAN            97. Install Rembot'
 echo '48. Install Commix            98. Install Entropy'
 echo '49. Install Wpscan            99. Install Decodify'
 echo '50. Install wpbf             100. Install Hue'
-echo "========================================================" | lolcat
+echo "==========================================================" | lolcat
 echo "            0. Exit            N. Next" | lolcat
-echo "========================================================" | lolcat
+echo "==========================================================" | lolcat
 echo -e "\e[1;32m╭─[ Select number to install ]"
 read -p "╰──> " pil;
 case $pil in
@@ -418,6 +418,7 @@ echo -e "${y} SUDAH TERINSTAL.."
 echo "Github: https://github.com/SirManishKumar/MNSAllTools" | lolcat
 figlet -f slant "MNSAllTools" | lolcat
 sleep 1
+clear
 exit
 
 ;;

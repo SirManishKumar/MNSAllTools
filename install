@@ -61,6 +61,7 @@ u) echo " Contacting To Server Please Wait.............................💯" | l
    apt update && apt upgrade
    pkg install python -y
    git clone https://github.com/SirManishKumar/MNSUpgrade
+   mv MNSUpgrade $HOME
    cd && cd MNSUpgrade
    bash Upgrade.sh
    echo " It's finished Thank you for using MNSAllTools                  " | lolcat

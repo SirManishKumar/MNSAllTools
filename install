@@ -65,6 +65,7 @@ u) echo " Contacting To Server Please Wait.............................💯" | l
    cd && cd MNSUpgrade
    bash Upgrade.sh
    echo " It's finished Thank you for using MNSAllTools                  " | lolcat
+   figlet MNSAllTools
    clear
 
 ;;
@@ -138,7 +139,6 @@ g) echo " Contacting To Server Please Wait.............................💯" | l
    apt update && apt upgrade -y
    clear
    echo " It's finished Thank you for using MNSAllTools                  " | lolcat
-   figlet Update
    figlet MNSAllTools
    clear
 
@@ -152,7 +152,6 @@ g) echo " Contacting To Server Please Wait.............................💯" | l
    chmod +x setup.sh
    bash setup.sh
    echo " It's finished Thank you for using MNSAllTools                  " | lolcat
-   figlet Update
    figlet MNSAllTools
    clear
 
@@ -163,10 +162,11 @@ g) echo " Contacting To Server Please Wait.............................💯" | l
    mv MNSUbuntu $HOME
    cd
    cd MNSUbuntu
-   chmod +x setup.sh
-   bash setup.sh
+   chmod +x ubuntu.sh
+   ./ubuntu.sh -y
+   ./startubuntu.sh
+   exit
    echo " It's finished Thank you for using MNSAllTools                  " | lolcat
-   figlet Update
    figlet MNSAllTools
    clear
 
@@ -181,7 +181,6 @@ g) echo " Contacting To Server Please Wait.............................💯" | l
    bash setup.sh
    cd && rm -rf MNSNgrok
    echo " It's finished Thank you for using MNSAllTools                  " | lolcat
-   figlet Update
    figlet MNSAllTools
    clear
 
@@ -196,7 +195,6 @@ g) echo " Contacting To Server Please Wait.............................💯" | l
    bash install.sh
    cd && rm -rf MNSLock
    echo " It's finished Thank you for using MNSAllTools                  " | lolcat
-   figlet Update
    figlet MNSAllTools
    clear
 
@@ -207,10 +205,9 @@ g) echo " Contacting To Server Please Wait.............................💯" | l
    mv MNSSnake $HOME
    cd
    cd MNSSnake
-   chmod +x setup.sh
-   bash setup.sh
+   chmod +x snake.py
+   python snake.py
    echo " It's finished Thank you for using MNSAllTools                  " | lolcat
-   figlet Update
    figlet MNSAllTools
    clear
 
@@ -224,7 +221,6 @@ g) echo " Contacting To Server Please Wait.............................💯" | l
    chmod +x *
    python install.py
    echo " It's finished Thank you for using MNSAllTools                  " | lolcat
-   figlet Update
    figlet MNSAllTools
    clear
 
@@ -235,10 +231,9 @@ g) echo " Contacting To Server Please Wait.............................💯" | l
    mv TermuxLock $HOME
    cd
    cd TermuxLock
-   chmod +x setup.sh
-   bash setup.sh
+   chmod +x install.sh
+   bash install.sh
    echo " It's finished Thank you for using MNSAllTools                  " | lolcat
-   figlet Update
    figlet MNSAllTools
    clear
 
@@ -252,7 +247,6 @@ g) echo " Contacting To Server Please Wait.............................💯" | l
    chmod +x setup.sh
    bash setup.sh
    echo " It's finished Thank you for using MNSAllTools                  " | lolcat
-   figlet Update
    figlet MNSAllTools
    clear
 

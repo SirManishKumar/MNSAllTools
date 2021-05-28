@@ -57,7 +57,7 @@ echo -e "\e[1;32m╭─[ Select number to install ]"
 read -p "╰──> " pil;
 case $pil in
 u) echo " Contacting To Server Please Wait.............................💯" | lolcat
-   echo " Starting To Download MNSTools Please Wait.                     " | lolcat
+   echo " Starting To Download MNSUpgrade Please Wait.                   " | lolcat
    apt update && apt upgrade
    pkg install python -y
    git clone https://github.com/SirManishKumar/MNSUpgrade
@@ -71,7 +71,7 @@ u) echo " Contacting To Server Please Wait.............................💯" | l
 w) echo " Contacting To Server Please Wait.............................💯" | lolcat
    echo " Starting To Connecting WhatsApp Please Wait.                   " | lolcat
    xdg-open https://wa.me/+919554988808?text=*From%20MNSAllTools-*%20I%20Have%20To%20Ask%20For%20
-   echo " It's finished Thank you for using MNSTools                     " | lolcat
+   echo " It's finished Thank you for using MNSAllTools                  " | lolcat
    clear
 
 ;;
@@ -104,7 +104,7 @@ g) echo " Contacting To Server Please Wait.............................💯" | l
 
 ;;
 1) echo " Contacting To Server Please Wait.............................💯" | lolcat
-   echo " Starting To Download All Pkg Please Wait.                      " | lolcat
+   echo " Starting To Update Basic Tools Please Wait.                    " | lolcat
    termux-setup-storage
    apt update && apt upgrade -y
    pkg update && pkg upgrade -y
@@ -137,25 +137,42 @@ g) echo " Contacting To Server Please Wait.............................💯" | l
    clear
    apt update && apt upgrade -y
    clear
+   echo " It's finished Thank you for using MNSAllTools                  " | lolcat
    figlet Update
    figlet MNSAllTools
    clear
 
 ;;
 2) echo " Contacting To Server Please Wait.............................💯" | lolcat
-   echo " Starting To Download All Pkg Please Wait.                      " | lolcat
+   echo " Starting To Download MNSTermux Please Wait.                    " | lolcat
    git clone https://github.com/SirManishKumar/MNSTermux
+   mv MNSTermux $HOME
+   cd
+   cd MNSTermux
+   chmod +x setup.sh
+   bash setup.sh
+   echo " It's finished Thank you for using MNSAllTools                  " | lolcat
+   figlet Update
+   figlet MNSAllTools
    clear
 
 ;;
 3) echo " Contacting To Server Please Wait.............................💯" | lolcat
-   echo " Starting To Download All Pkg Please Wait.                      " | lolcat
+   echo " Starting To Download MNSUbuntu Please Wait.                    " | lolcat
    git clone https://github.com/SirManishKumar/MNSUbuntu
+   mv MNSUbuntu $HOME
+   cd
+   cd MNSUbuntu
+   chmod +x setup.sh
+   bash setup.sh
+   echo " It's finished Thank you for using MNSAllTools                  " | lolcat
+   figlet Update
+   figlet MNSAllTools
    clear
 
 ;;
 4) echo " Contacting To Server Please Wait.............................💯" | lolcat
-   echo " Starting To Download All Pkg Please Wait.                      " | lolcat
+   echo " Starting To Download MNSNgrok Please Wait.                     " | lolcat
    git clone https://github.com/SirManishKumar/MNSNgrok
    mv MNSNgrok $HOME
    cd
@@ -163,11 +180,14 @@ g) echo " Contacting To Server Please Wait.............................💯" | l
    chmod +x setup.sh
    bash setup.sh
    cd && rm -rf MNSNgrok
+   echo " It's finished Thank you for using MNSAllTools                  " | lolcat
+   figlet Update
+   figlet MNSAllTools
    clear
 
 ;;
 5) echo " Contacting To Server Please Wait.............................💯" | lolcat
-   echo " Starting To Download All Pkg Please Wait.                      " | lolcat
+   echo " Starting To Download MNSLock Please Wait.                      " | lolcat
    git clone https://github.com/SirManishKumar/MNSLock
    mv MNSLock $HOME
    cd
@@ -175,35 +195,65 @@ g) echo " Contacting To Server Please Wait.............................💯" | l
    chmod +x install.sh
    bash install.sh
    cd && rm -rf MNSLock
+   echo " It's finished Thank you for using MNSAllTools                  " | lolcat
+   figlet Update
+   figlet MNSAllTools
    clear
 
 ;;
 6) echo " Contacting To Server Please Wait.............................💯" | lolcat
-   echo " Starting To Download All Pkg Please Wait.                      " | lolcat
+   echo " Starting To Download MNSSnake Please Wait.                     " | lolcat
    git clone https://github.com/SirManishKumar/MNSSnake
+   mv MNSSnake $HOME
+   cd
+   cd MNSSnake
+   chmod +x setup.sh
+   bash setup.sh
+   echo " It's finished Thank you for using MNSAllTools                  " | lolcat
+   figlet Update
+   figlet MNSAllTools
    clear
 
 ;;
 7) echo " Contacting To Server Please Wait.............................💯" | lolcat
-   echo " Starting To Download All Pkg Please Wait.                      " | lolcat
+   echo " Starting To Download MNSTools Please Wait.                     " | lolcat
    git clone https://github.com/SirManishKumar/MNSTools
    mv MNSTools $HOME
    cd
    cd MNSTools
    chmod +x *
    python install.py
+   echo " It's finished Thank you for using MNSAllTools                  " | lolcat
+   figlet Update
+   figlet MNSAllTools
    clear
 
 ;;
 8) echo " Contacting To Server Please Wait.............................💯" | lolcat
-   echo " Starting To Download All Pkg Please Wait.                      " | lolcat
+   echo " Starting To Download TermuxLock Please Wait.                   " | lolcat
    git clone https://github.com/SirManishKumar/TermuxLock
+   mv TermuxLock $HOME
+   cd
+   cd TermuxLock
+   chmod +x setup.sh
+   bash setup.sh
+   echo " It's finished Thank you for using MNSAllTools                  " | lolcat
+   figlet Update
+   figlet MNSAllTools
    clear
 
 ;;
 9) echo " Contacting To Server Please Wait.............................💯" | lolcat
-   echo " Starting To Download All Pkg Please Wait.                      " | lolcat
+   echo " Starting To Download TermuxTool Please Wait.                   " | lolcat
    git clone https://github.com/SirManishKumar/TermuxTool
+   mv TermuxTool $HOME
+   cd
+   cd TermuxTool
+   chmod +x setup.sh
+   bash setup.sh
+   echo " It's finished Thank you for using MNSAllTools                  " | lolcat
+   figlet Update
+   figlet MNSAllTools
    clear
 
 ;;

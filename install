@@ -49,8 +49,8 @@ echo ' 7. Install MNSTools           |         t. Twitter         |'
 echo ' 8. Install TermuxLock         |         w. WhatsApp        |'
 echo ' 9. Install TermuxTool         |  github.com/SirManishKumar |'
 echo '10. Install TermuxHack         ╰━━━━━━━━━━━━━━━━━━━━━━━━━━━━╯'
-
 echo "=============================================================" | lolcat
+echo "      Dear Friends Please Enter 'N' To Install 350 Tools " | lolcat
 echo "                  0. Exit            N. Next" | lolcat
 echo "=============================================================" | lolcat
 echo -e "\e[1;32m╭─[ Select number to install ]"

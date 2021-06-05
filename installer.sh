@@ -1,10 +1,11 @@
 #!/bin/bash
 #version 1.0
 clear
+apt update && apt upgrade -y
 pkg install curl
 pkg install wget
 pkg install git
-pkg install python
+pkg install python -y
 pip install lolcat
 pkg install figlet
 clear

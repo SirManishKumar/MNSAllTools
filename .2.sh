@@ -90,7 +90,7 @@ echo '148. Install V3nom-Scanner         198. Install WebSploit'
 echo '149. Install Bom Sms 3             199. Install Wifi-Hacker'
 echo '150. Install WebKiller             200. Install Mr.Rv1'
 echo "===============================================================" | lolcat
-echo "                 0. Exit            N. Next" | lolcat
+echo "                 0. Back            N. Next" | lolcat
 echo "===============================================================" | lolcat
 echo -e "\e[1;32m╭─[ Select number to install ]"
 read -p "╰──> " pil;

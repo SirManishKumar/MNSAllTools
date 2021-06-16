@@ -90,7 +90,7 @@ echo '48. Install Commix            98. Install Entropy'
 echo '49. Install Wpscan            99. Install Decodify'
 echo '50. Install wpbf             100. Install Hue'
 echo "==========================================================" | lolcat
-echo "            0. Exit            N. Next" | lolcat
+echo "            0. Back            N. Next" | lolcat
 echo "==========================================================" | lolcat
 echo -e "\e[1;32m╭─[ Select number to install ]"
 read -p "╰──> " pil;

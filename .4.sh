@@ -59,7 +59,7 @@ echo '330. Install AK47          349. Install T.H.A'
 echo '331. Install PapaViruz     350. Install MyVirus'
 echo '332. Install All tools     351. Install Hack-Gmail'
 echo "=====================================================" | lolcat
-echo "            0. Exit            N. Next" | lolcat
+echo "            0. Back            N. Next" | lolcat
 echo "=====================================================" | lolcat
 echo -e "\e[1;32m╭─[ Select Tool to Install ]"
 read -p "╰──> " pil;

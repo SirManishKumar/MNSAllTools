@@ -97,7 +97,7 @@ echo '255. Install Password-Cracker   312. Install Spam WhatsApp'
 echo '256. Install Flux               313. Install DarkCurut08'
 
 echo "==========================================================" | lolcat
-echo "            0. Exit            N. Next" | lolcat
+echo "            0. Back            N. Next" | lolcat
 echo "==========================================================" | lolcat
 echo -e "\e[1;32m╭─[ Select Tool to Install ]"
 read -p "╰──> " no;

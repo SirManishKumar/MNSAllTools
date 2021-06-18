@@ -98,6 +98,10 @@ echo -e "\e[1;37m                 Connecting- SirmANISHKUMAR"
 sleep .8
 clear
 echo -e "\e[1;31m   Contacting To Manish Kumar Chaturvedi Server Please Wait."
+echo -e "\e[1;37m                 Connecting- SirMANISHKUMAR"
+sleep .8
+clear
+echo -e "\e[1;31m   Contacting To Manish Kumar Chaturvedi Server Please Wait."
 echo -e "\e[1;37m                 Connecting- SirMaNISHKUMAR"
 sleep .8
 clear
@@ -119,6 +123,10 @@ sleep .8
 clear
 echo -e "\e[1;31m   Contacting To Manish Kumar Chaturvedi Server Please Wait."
 echo -e "\e[1;37m                 Connecting- SirManishkUMAR"
+sleep .8
+clear
+echo -e "\e[1;31m   Contacting To Manish Kumar Chaturvedi Server Please Wait."
+echo -e "\e[1;37m                 Connecting- SirManishKUMAR"
 sleep .8
 clear
 echo -e "\e[1;31m   Contacting To Manish Kumar Chaturvedi Server Please Wait."

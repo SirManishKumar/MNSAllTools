@@ -415,6 +415,7 @@ echo -e "${y} SUDAH TERINSTAL.."
 
 ;;
 0) echo "Author : Manish Kumar Chaturvedi" | lolcat
+echo "Website : https://mnsgranth.com" | lolcat
 echo "Github: https://github.com/SirManishKumar/MNSAllTools" | lolcat
 figlet -f slant "MNSAllTools" | lolcat
 sleep 1
